@@ -1,1 +1,3 @@
-require __DIR__.'/../gestion-compte/vendor/autoload.php';
+<?php
+require __DIR__.'/../git-gestion-compte/vendor/autoload.php';
+?>

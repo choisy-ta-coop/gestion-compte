@@ -1,9 +1,14 @@
 Follow through:
 https://github.com/elefan-grenoble/gestion-compte/blob/v1.45.1/doc/install.md
 
+Warning the exact stak is 
+https://github.com/choisy-ta-coop/gestion-compte#developpement
 
 Composer version had to be 2.2.x
 https://getcomposer.org/download/
+https://aymeric-cucherousset.fr/installer-composer-sur-debian-11/
+
+composer self-update 2.2.21
 
 And php7.4
 https://webdock.io/en/docs/perfect-server-stacks/upgrade-or-downgrade-php/upgrading-or-downgrading-php-versions
@@ -18,4 +23,14 @@ parameters:
     database_name: symfony
     database_user: root
     database_password: pk5998
+
+
+composer install --no-dev --optimize-autoloader
+composer dump-autoload --optimize --no-dev --classmap-authoritative
+
+
+J'ai cree une fork d'elefan sur notre repo
+
+
+J'ai ajoute un fichier texte dans lequel j'ai note les infos qui m'ont semble importante pour avancer. 
 
