@@ -1,0 +1,21 @@
+Follow through:
+https://github.com/elefan-grenoble/gestion-compte/blob/v1.45.1/doc/install.md
+
+
+Composer version had to be 2.2.x
+https://getcomposer.org/download/
+
+And php7.4
+https://webdock.io/en/docs/perfect-server-stacks/upgrade-or-downgrade-php/upgrading-or-downgrading-php-versions
+
+Useful link to deal with db connection issues
+https://symfony.com/doc/current/reference/configuration/doctrine.html
+
+In local my config (parameters.yml) ended up being 
+parameters:
+    database_host: localhost
+    database_port: 3306
+    database_name: symfony
+    database_user: root
+    database_password: pk5998
+

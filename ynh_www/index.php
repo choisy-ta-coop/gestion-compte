@@ -1,0 +1,1 @@
+require __DIR__.'/../gestion-compte/vendor/autoload.php';
